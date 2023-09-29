@@ -1295,7 +1295,7 @@
     "symbol": "XDAI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis.publicnode.com", "wss://gnosis.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "infoURL": "https://docs.gnosischain.com"
 }, {
@@ -3457,6 +3457,19 @@
   "faucets": ["https://faucet.bcsdev.io"],
   "infoURL": "https://blockchainstation.io"
 }, {
+  "name": "Highbury",
+  "chainId": 710,
+  "shortName": "fury",
+  "networkId": 710,
+  "nativeCurrency": {
+    "name": "Fury",
+    "symbol": "FURY",
+    "decimals": 18
+  },
+  "rpc": ["https://highbury.furya.io", "https://rest.furya.io"],
+  "faucets": [],
+  "infoURL": "https://www.fury.black"
+}, {
   "name": "Shibarium Beta",
   "chainId": 719,
   "shortName": "shibarium",
@@ -3989,6 +4002,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://munode.dev/"
+}, {
+  "name": "BTC20 Smart Chain",
+  "chainId": 963,
+  "shortName": "btc20",
+  "networkId": 963,
+  "nativeCurrency": {
+    "name": "BTCC",
+    "symbol": "BTCC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bitcoincode.technology/"],
+  "faucets": [],
+  "infoURL": "https://bitcoincode.technology"
 }, {
   "name": "Oort Mainnet",
   "chainId": 970,
@@ -4844,7 +4870,7 @@
     "symbol": "GLMR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network"],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.publicnode.com", "wss://moonbeam.publicnode.com"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonbeam/"
 }, {
@@ -4857,7 +4883,7 @@
     "symbol": "MOVR",
     "decimals": 18
   },
-  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network"],
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.publicnode.com", "wss://moonriver.publicnode.com"],
   "faucets": [],
   "infoURL": "https://moonbeam.network/networks/moonriver/"
 }, {
@@ -8055,7 +8081,7 @@
     "symbol": "CANTO",
     "decimals": 18
   },
-  "rpc": ["https://canto.slingshot.finance", "https://canto.neobase.one", "https://mainnode.plexnode.org:8545"],
+  "rpc": ["https://canto.slingshot.finance", "https://canto.neobase.one", "https://mainnode.plexnode.org:8545", "https://canto.gravitychain.io/", "https://canto.evm.chandrastation.com/", "https://jsonrpc.canto.nodestake.top/", "https://canto.dexvaults.com/", "wss://canto.gravitychain.io:8546", "wss://canto.dexvaults.com/ws"],
   "faucets": [],
   "infoURL": "https://canto.io"
 }, {
@@ -8627,7 +8653,7 @@
     "symbol": "tEVMOS",
     "decimals": 18
   },
-  "rpc": ["https://eth.bd.evmos.dev:8545"],
+  "rpc": ["https://evmos-testnet.lava.build", "https://eth.bd.evmos.dev:8545"],
   "faucets": ["https://faucet.evmos.dev"],
   "infoURL": "https://evmos.org"
 }, {
@@ -8640,7 +8666,7 @@
     "symbol": "EVMOS",
     "decimals": 18
   },
-  "rpc": ["https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
+  "rpc": ["https://evmos.lava.build", "wss://evmos.lava.build/websocket", "https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
   "faucets": [],
   "infoURL": "https://evmos.org"
 }, {
@@ -9004,7 +9030,7 @@
     "symbol": "XDAI",
     "decimals": 18
   },
-  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss"],
+  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado.publicnode.com", "wss://gnosis-chiado.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com"],
   "infoURL": "https://docs.gnosischain.com"
 }, {
@@ -9589,7 +9615,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.holesky.ethpandaops.io"],
+  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky.publicnode.com", "wss://ethereum-holesky.publicnode.com"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "infoURL": "https://holesky.ethpandaops.io"
 }, {
@@ -10307,6 +10333,19 @@
   "rpc": ["https://emerald.oasis.dev", "wss://emerald.oasis.dev/ws"],
   "faucets": [],
   "infoURL": "https://docs.oasis.io/dapp/emerald"
+}, {
+  "name": "Gesoten Verse Testnet",
+  "chainId": 42801,
+  "shortName": "GST",
+  "networkId": 42801,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.verse.gesoten.com/"],
+  "faucets": [],
+  "infoURL": "https://gesoten.com/"
 }, {
   "name": "Kinto Testnet",
   "chainId": 42888,
@@ -13216,7 +13255,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia.publicnode.com", "wss://ethereum-sepolia.publicnode.com"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "infoURL": "https://sepolia.otterscan.io"
 }, {

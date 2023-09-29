@@ -1934,7 +1934,7 @@
   "name": "Gnosis",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosischain-rpc.gateway.pokt.network", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://web3endpoints.com/gnosischain-mainnet", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis.publicnode.com", "wss://gnosis.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
@@ -5331,6 +5331,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Highbury",
+  "chain": "HIGHBURY",
+  "rpc": ["https://highbury.furya.io", "https://rest.furya.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Fury",
+    "symbol": "FURY",
+    "decimals": 18
+  },
+  "infoURL": "https://www.fury.black",
+  "shortName": "fury",
+  "chainId": 710,
+  "networkId": 710,
+  "icon": "highbury",
+  "explorers": [{
+    "name": "Furya EVM Explorer",
+    "url": "https://explorer.furya.io",
+    "standard": "EIP3091",
+    "icon": "highbury"
+  }]
+}, {
   "name": "Shibarium Beta",
   "chain": "Shibarium",
   "icon": "shibarium",
@@ -6138,6 +6159,31 @@
   "chainId": 956,
   "networkId": 956
 }, {
+  "name": "BTC20 Smart Chain",
+  "chain": "BTC20",
+  "rpc": ["https://rpc.bitcoincode.technology/"],
+  "faucets": [],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "nativeCurrency": {
+    "name": "BTCC",
+    "symbol": "BTCC",
+    "decimals": 18
+  },
+  "infoURL": "https://bitcoincode.technology",
+  "shortName": "btc20",
+  "chainId": 963,
+  "networkId": 963,
+  "icon": "btc20",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://scan.bitcoincode.technology",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Oort Mainnet",
   "chain": "Oort Mainnet",
   "rpc": ["https://rpc.oortech.com"],
@@ -6391,7 +6437,8 @@
   "explorers": [{
     "name": "Tectum explorer",
     "url": "https://explorer.tectum.io",
-    "standard": "none"
+    "icon": "Tettoken256",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "T-EKTA",
@@ -7406,7 +7453,7 @@
 }, {
   "name": "Moonbeam",
   "chain": "MOON",
-  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network"],
+  "rpc": ["https://rpc.api.moonbeam.network", "wss://wss.api.moonbeam.network", "https://moonbeam.publicnode.com", "wss://moonbeam.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Glimmer",
@@ -7425,7 +7472,7 @@
 }, {
   "name": "Moonriver",
   "chain": "MOON",
-  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network"],
+  "rpc": ["https://rpc.api.moonriver.moonbeam.network", "wss://wss.api.moonriver.moonbeam.network", "https://moonriver.publicnode.com", "wss://moonriver.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Moonriver",
@@ -12483,7 +12530,7 @@
 }, {
   "name": "Canto",
   "chain": "Canto",
-  "rpc": ["https://canto.slingshot.finance", "https://canto.neobase.one", "https://mainnode.plexnode.org:8545"],
+  "rpc": ["https://canto.slingshot.finance", "https://canto.neobase.one", "https://mainnode.plexnode.org:8545", "https://canto.gravitychain.io/", "https://canto.evm.chandrastation.com/", "https://jsonrpc.canto.nodestake.top/", "https://canto.dexvaults.com/", "wss://canto.gravitychain.io:8546", "wss://canto.dexvaults.com/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canto",
@@ -13324,7 +13371,7 @@
 }, {
   "name": "Evmos Testnet",
   "chain": "Evmos",
-  "rpc": ["https://eth.bd.evmos.dev:8545"],
+  "rpc": ["https://evmos-testnet.lava.build", "https://eth.bd.evmos.dev:8545"],
   "faucets": ["https://faucet.evmos.dev"],
   "nativeCurrency": {
     "name": "test-Evmos",
@@ -13345,7 +13392,7 @@
 }, {
   "name": "Evmos",
   "chain": "Evmos",
-  "rpc": ["https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
+  "rpc": ["https://evmos.lava.build", "wss://evmos.lava.build/websocket", "https://evmos-evm.publicnode.com", "wss://evmos-evm.publicnode.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evmos",
@@ -13874,7 +13921,7 @@
   "name": "Gnosis Chiado Testnet",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss"],
+  "rpc": ["https://rpc.chiadochain.net", "https://rpc.chiado.gnosis.gateway.fm", "wss://rpc.chiadochain.net/wss", "https://gnosis-chiado.publicnode.com", "wss://gnosis-chiado.publicnode.com"],
   "faucets": ["https://gnosisfaucet.com"],
   "nativeCurrency": {
     "name": "Chiado xDAI",
@@ -14805,7 +14852,7 @@
 }, {
   "name": "Holesky",
   "chain": "ETH",
-  "rpc": ["https://rpc.holesky.ethpandaops.io"],
+  "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky.publicnode.com", "wss://ethereum-holesky.publicnode.com"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "nativeCurrency": {
     "name": "Testnet ETH",
@@ -15963,6 +16010,26 @@
   "explorers": [{
     "name": "Oasis Emerald Explorer",
     "url": "https://explorer.emerald.oasis.dev",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Gesoten Verse Testnet",
+  "chain": "Gesoten Verse",
+  "rpc": ["https://rpc.testnet.verse.gesoten.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://gesoten.com/",
+  "shortName": "GST",
+  "icon": "gesoten",
+  "chainId": 42801,
+  "networkId": 42801,
+  "explorers": [{
+    "name": "Gesoten Verse Testnet Explorer",
+    "url": "https://explorer.testnet.verse.gesoten.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -20536,7 +20603,7 @@
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co"],
+  "rpc": ["https://rpc.sepolia.org", "https://rpc2.sepolia.org", "https://rpc-sepolia.rockx.com", "https://rpc.sepolia.ethpandaops.io", "https://sepolia.infura.io/v3/${INFURA_API_KEY}", "wss://sepolia.infura.io/v3/${INFURA_API_KEY}", "https://sepolia.gateway.tenderly.co", "wss://sepolia.gateway.tenderly.co", "https://ethereum-sepolia.publicnode.com", "wss://ethereum-sepolia.publicnode.com"],
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
