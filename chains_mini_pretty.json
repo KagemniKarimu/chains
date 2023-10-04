@@ -2179,7 +2179,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org"],
+  "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb.publicnode.com", "wss://opbnb.publicnode.com"],
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
 }, {
@@ -6043,6 +6043,19 @@
   "rpc": ["https://web3-rpc.thestratos.org"],
   "faucets": [],
   "infoURL": "https://www.thestratos.org"
+}, {
+  "name": "Movo Smart Chain Mainnet",
+  "chainId": 2049,
+  "shortName": "movo",
+  "networkId": 2049,
+  "nativeCurrency": {
+    "name": "Movo Smart Chain",
+    "symbol": "MOVO",
+    "decimals": 18
+  },
+  "rpc": ["https://msc-rpc.movoscan.com", "https://msc-rpc.movochain.org", "https://msc-rpc.movoswap.com"],
+  "faucets": [],
+  "infoURL": "https://movo.uk"
 }, {
   "name": "Quokkacoin Mainnet",
   "chainId": 2077,
@@ -10126,6 +10139,19 @@
   "faucets": [],
   "infoURL": "https://www.zilliqa.com/"
 }, {
+  "name": "Zilliqa EVM Isolated Server",
+  "chainId": 32990,
+  "shortName": "zil-isolated-server",
+  "networkId": 32990,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://zilliqa-isolated-server.zilliqa.com/"],
+  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=isolated_server"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
   "name": "Zilliqa EVM Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
@@ -10151,6 +10177,32 @@
   "rpc": ["https://rpc.avescoin.io"],
   "faucets": [],
   "infoURL": "https://avescoin.io"
+}, {
+  "name": "Zilliqa EVM Devnet",
+  "chainId": 33385,
+  "shortName": "zil-devnet",
+  "networkId": 33385,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.devnet.zilliqa.com/"],
+  "faucets": ["https://faucet.devnet.zilliqa.com/"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "Zilliqa 2 EVM Devnet",
+  "chainId": 33469,
+  "shortName": "zq2-devnet",
+  "networkId": 33469,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zq2-devnet.zilstg.dev"],
+  "faucets": ["https://faucet.zq2-devnet.zilstg.dev"],
+  "infoURL": "https://www.zilliqa.com/"
 }, {
   "name": "J2O Taro",
   "chainId": 35011,
