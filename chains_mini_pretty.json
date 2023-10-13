@@ -567,7 +567,7 @@
     "symbol": "CRAB",
     "decimals": 18
   },
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://crab.api.onfinality.io/public-ws", "https://darwiniacrab-rpc.dwellir.com"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz", "https://darwiniacrab-rpc.dwellir.com"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
@@ -2478,9 +2478,9 @@
     "symbol": "EGON",
     "decimals": 18
   },
-  "rpc": ["https://rpc.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
-  "infoURL": "https://egcscan.com"
+  "rpc": ["https://rpc.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
+  "infoURL": "https://egonscan.com"
 }, {
   "name": "LaChain",
   "chainId": 274,
@@ -6719,6 +6719,19 @@
   "rpc": ["https://public-01.mainnet.thebifrost.io/rpc", "https://public-02.mainnet.thebifrost.io/rpc"],
   "faucets": [],
   "infoURL": "https://thebifrost.io"
+}, {
+  "name": "Immu3 EVM",
+  "chainId": 3100,
+  "shortName": "Immu3",
+  "networkId": 3100,
+  "nativeCurrency": {
+    "name": "IMMU",
+    "symbol": "IMMU",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://immu3.io"
 }, {
   "name": "Filecoin - Hyperspace testnet",
   "chainId": 3141,
@@ -11023,6 +11036,19 @@
   "faucets": [],
   "infoURL": "https://cosmicchain.site"
 }, {
+  "name": "DM2 Verse Mainnet",
+  "chainId": 68770,
+  "shortName": "dm2",
+  "networkId": 68770,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.dm2verse.dmm.com"],
+  "faucets": [],
+  "infoURL": "https://seamoon.dmm.com"
+}, {
   "name": "Condrieu",
   "chainId": 69420,
   "shortName": "cndr",
@@ -12358,9 +12384,9 @@
     "symbol": "EGON",
     "decimals": 18
   },
-  "rpc": ["https://rpctest.egcscan.com"],
-  "faucets": ["https://faucet.egcscan.com"],
-  "infoURL": "https://egcscan.com"
+  "rpc": ["https://rpctest.egonscan.com"],
+  "faucets": ["https://faucet.egonscan.com"],
+  "infoURL": "https://egonscan.com"
 }, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,
@@ -12946,6 +12972,19 @@
   "rpc": ["https://chain.deptofgood.com"],
   "faucets": [],
   "infoURL": "https://bloqs4good.com"
+}, {
+  "name": "Dodao",
+  "chainId": 855456,
+  "shortName": "dodao",
+  "networkId": 855456,
+  "nativeCurrency": {
+    "name": "Dodao",
+    "symbol": "DODAO",
+    "decimals": 18
+  },
+  "rpc": ["https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network", "wss://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network"],
+  "faucets": [],
+  "infoURL": "https://dodao.dev/"
 }, {
   "name": "Vision - Mainnet",
   "chainId": 888888,
